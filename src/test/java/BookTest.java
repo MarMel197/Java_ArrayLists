@@ -8,21 +8,21 @@ public class BookTest {
 
     @Before
     public void setUp() {
-        book = new Book("War and Peace", "Leo Tolstoy", "Historical Fiction");
+        book = new Book("Knots and Crosses", "Ian Rankin", "Historical Fiction");
     }
 
     @Test
     public void bookHasTitle(){
-        assertEquals("War and Peace", book.getTitle());
+        assertEquals("Knots and Crosses", book.getTitle());
     }
 
     @Test
     public void bookHasAuthor(){
-        assertEquals("Leo Tolstoy", book.getAuthor());
+        assertEquals("Ian Rankin", book.getAuthor());
     }
 
     @Test
     public void bookHasGenre(){
-        assertEquals("Historical Fiction", book.getGenre());
+        assertEquals("Crime", book.getGenre());
     }
 }
